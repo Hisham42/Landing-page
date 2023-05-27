@@ -1,0 +1,41 @@
+body {
+    
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+
+.header_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1F2937;
+    height: 50px;
+    
+    
+    
+    
+    
+}
+
+.header_top > h3 {
+    margin-right: auto;
+    margin-left: 100px;
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.header_top_links {
+    margin-right: 100px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 20px;
+    
+}
+
+u {
+    text-decoration-line: none;
+}
