@@ -44,11 +44,14 @@ u {
 
 /* header bottom */
 
-img {
+.header_bottom_right > img {
     height: auto;
-    width: 500px;
+    width: 600px;
+    max-width: 100%;
     border-radius: 40px;
     margin-left: auto;
+    
+    
 }
 .header_bottom {
     display: flex;
@@ -93,3 +96,116 @@ img {
     margin-top: auto;
 }
 
+/* Section 2 */
+
+.image_card {
+    width: 900px;
+    height: auto;
+    border-radius: 20px;
+    border: #3882F6 5px solid;
+    max-width: 100%;
+}
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.section_2_bottom {
+    display: flex;
+    gap: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.section_2_card_text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.section_2_top > h1 {
+    font-size: 48px;
+}
+
+/* Section 3 */
+
+.section_3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 300px;
+}
+
+.section_3_quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #5d6168;
+}
+
+.section_3_signature {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -30px;
+    
+}
+
+.section_4_box {
+    background-color: #3882F6;
+    margin: 80px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 0;
+    gap: 30px;
+}
+
+.section_4_box_text {
+    margin-right: auto;
+    margin-left: 80px;
+}
+.section_4_box_button {
+    margin-left: auto;
+    margin-right: 80px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: #E5E7EB solid;
+    border-radius: 10%;
+    font-size: 22px;
+    padding: 10px 25px;
+    min-width: 140px;
+}
+
+.section_4_box_text > h3 {
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.section_4_box_text > h4 {
+    color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 18px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    
+    background-color:#1F2937;
+    color: #E5E7EB;
+    min-height: 100px;
+}
+
+.footer_text {
+    align-self: center;
+    font-size: 26px;
+    font-weight: normal;
+}
